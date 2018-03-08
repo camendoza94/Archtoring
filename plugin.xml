@@ -5,6 +5,7 @@
 	    <menuContribution locationURI="popup:org.eclipse.jdt.ui.PackageExplorer">
 	      <command commandId="archtoring.commands.Open"
 	        label="Load Ekeko" style="push" mnemonic="L">
+	         <!--
 	         <visibleWhen>
 	                <with variable="activeMenuSelection">
 	                    <iterate ifEmpty="false">
@@ -14,6 +15,7 @@
 	                    </iterate>
 	                </with>
 	         </visibleWhen>
+	         -->
 	      </command>
 	    </menuContribution>
   	</extension>
